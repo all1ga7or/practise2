@@ -1,0 +1,18 @@
+.header_section{
+    align-items: center;
+}
+.text_left{
+    position: relative;
+}
+.text_left p{
+    text-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    align-content:center;
+    color: rgb(255, 231, 196);
+    font-size: 64px;
+    text-align: center;
+}
+.text_left img[src="img/Component 2.png"]{
+    display: none;
+}

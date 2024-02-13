@@ -1,0 +1,131 @@
+@media (max-width: 1200px){
+    .header_section{
+        row-gap: 200px;
+    }
+    .header_section .text_left .image, .header_section .text_right .img{
+        display: flex;
+    }
+    .header_section .text_left .image img{
+        max-width: 63vw;
+        width: auto;
+    }
+    .text_left img[src="img/arrow-removebg-preview 1.png"]{
+        width: auto;
+        max-width: 80%;
+        top: 90%;
+    }
+    .text_right .img img{
+        z-index: 3;
+        max-width: 57vw;
+        width: auto;
+    }
+    .header_section .text_left .image{
+        width: fit-content;
+    }
+    .text_left .text p{
+        font-size: 2.7vh;
+        margin-top: 25vh;
+        padding: 0 10px;
+    }
+    .text_right .text p{
+        margin-bottom: 18vh;
+        padding: 0;
+        font-size: 2.7vh;
+    }
+}
+@media (max-width: 888px){
+    header section.header_section{
+        flex-direction: column;
+    }
+    main.main_container{
+        align-items: center;
+    }
+    main.main_container .buttons{
+        flex-direction: column;
+    }
+    main.main_container p{
+        text-align: center;
+    }
+    .under_table .horizontal_line{
+        width: 57vw;
+    }
+    .under_table img[src="img/black_tree2.png"]{
+        right: -6vh;
+        bottom: 13vh;
+    }
+    .under_table img[src="img/black_tree1.png"]{
+        left: -7vh;
+        top: 8vh;
+    }
+    #plantingTable{
+        display: none;
+    }
+    #horizontal-table{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        font-family: "Oswald";
+        font-size: 5vw;
+        width: 100%;
+
+    }
+    #horizontal-table .horizontalCell{
+        background-color: #88B0A5;
+        display: flex;
+        flex-direction: column;
+        row-gap:  15px;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    #horizontal-table .horizontal_line{
+        align-self: flex-start;
+        width: 90%;
+        border: 1px solid black;
+        margin-top: 0;
+    }
+    #horizontal-table .name{
+        font-size: 8vw;
+    }
+    #horizontal-table input.quantity_for_greenhouse{
+        width: 25%;
+        min-width: 80px;
+        height: 40px;
+        margin: 0;
+        border: none;
+        display: flex;
+        align-self: flex-start;
+        border-radius: 10px;
+        vertical-align: middle;
+        font-size: 36px;
+        text-align: center;
+    }
+    #horizontal-table .select-cell div{
+        width: 40px;
+        height: 40px;
+    }
+    #horizontal-table .horizontalCell .line1{
+        display: flex;
+        column-gap: 20px;
+    }
+    #horizontal-table .line3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .greenhouse{
+        flex-direction: column;
+        row-gap: 100px;
+        justify-content: space-between;
+        column-gap: 200px;
+        margin: 50px 150px;
+    }
+    .greenhouseButtons1{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 580px){
+    #horizontal-table .horizontalCell{
+        align-items: flex-start;
+        padding: 20px 30px;
+    }
+}

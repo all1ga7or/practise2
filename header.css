@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+section.hat_container{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    column-gap: 45px;
+    margin: 25px auto;
+}
+.hat_container .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    background-color: #DFE3D7;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 20px;
+}
+.hat_container .logo span{
+    font-size: 32px;
+    margin-left: 20px;
+    display: none;
+}
+.hat_container .logo img{
+    width: 70px;
+    transition: transform 0.3s ease;
+}
+.hat_container .logo img:hover{
+    transform: scale(1.2);
+}
+.menu-container{
+    display: flex;
+    justify-content: flex-start;
+    width:fit-content;
+    background-color: #DFE3D7;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.menu-container .desktop_menu{
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+    row-gap: 0;
+    padding: 0 20px;
+}
+.menu-container ul li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.menu-container ul li a{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: black;
+    transition: color 0.1s ease-in-out;
+}
+
+.menu-container ul li:hover a{
+    color: #24B933;
+}
+.menu-container ul li.current a{
+    color: #24B933;
+}
+.menu-container ul li.current svg path{
+    fill: #24B933;
+}
+.mobile-menu ul li.current svg path{
+    fill: #24B933;
+}
+.desktop_menu li a svg{
+    overflow: hidden;
+    height: 70px;
+    margin-right: 7px;
+}
+.desktop_menu li a svg path, .mobile-menu ul li:hover svg path{
+    transition: fill 0.1s ease-in-out;
+}
+.desktop_menu li:hover a svg path{
+    fill: #24B933;
+}
+.mobile-menu ul li:hover svg path{
+    fill: #24B933;
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_section p{
+    max-width: 100%;
+}
+.header_section .image_right{
+    min-width: 50%;
+}
+.header_section .image_right img{
+    width: 100%;
+}
+

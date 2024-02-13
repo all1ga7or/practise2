@@ -1,0 +1,70 @@
+@media (max-width: 1200px){
+    .header_section .text_left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_left .image{
+        max-width: 70%;
+    }
+    .text_left .text{
+        max-width: 85%;
+    }
+    .header_section .text_left .text p{
+        margin: 0 0 300px 0;
+    }
+    .header_section img[src="img/header_back2.png"]{
+        top: 40lh;
+        left: 60px;
+        scale: 1.2;
+    }
+    main.main_container{
+        padding: 40px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    main .text_left, main .text_right{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: fit-content;
+        margin-bottom: 50px;
+    }
+    main .text_right{
+        height: auto;
+    }
+    main .text_right .image, main .text_left .image{
+        margin-bottom: 30px;
+    }
+    main .text_right .image img{
+        margin: auto;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        max-width: 80%;
+        scale: 1;
+    }
+    main .text_left .image img{
+        margin: auto;
+        position: relative;
+        max-width: 80%;
+        scale: 1;
+        transform: none ;
+    }
+    main .text_left .image img[src="img/теплиця.png"]{
+        display: block;
+    }
+    main .text_left .image img[src="img/article_place-removebg-preview 1.png"]{
+        display: none;
+    }
+    main .text_right .image img[src="img/article_harvest-removebg-preview 1.png"]{
+        display: none;
+    }
+    main .text_right .image img[src="img/сад.png"]{
+        display: block;
+    }
+
+}

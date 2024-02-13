@@ -1,0 +1,44 @@
+@media (max-width: 888px) {
+    div.text_left img[src="img/Component 1.png"]{
+        display: none;
+    }
+    div.text_left img[src="img/Component 2.png"]{
+        display: block;
+        max-width: 100%;
+    }
+    div.text_left p{
+        top: 15%;
+        font-size: 8vw;
+    }
+    table.crop_planning td, table.crop_planning th{
+        font-size: 20px;
+    }
+    div.under_table{
+        padding-bottom: 100px;
+    }
+    .under_table img[src="img/tree 2.png"]{
+        right: 0;
+        top: 0;
+        height: 40%
+    }
+    div.under_table img[src="img/tree 3.png"], .under_table img[src="img/tree 4.png"]{
+        display: block;
+        position: absolute;
+    }
+    div.under_table img[src="img/tree 3.png"]{
+        left: 0;
+    }
+    div.under_table img[src="img/tree 3.png"]{
+        left: 0;
+        bottom: 0;
+    }
+    div.under_table img[src="img/tree 4.png"]{
+        right: 30px;
+        bottom: -50px;
+    }
+    .under_table .buttons{
+        width: fit-content;
+        row-gap: 70px;
+        padding-top: 100px;
+    }
+}

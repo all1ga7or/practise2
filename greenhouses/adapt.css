@@ -1,0 +1,53 @@
+@media(max-width: 1200px){
+    .text_left img[src="img/plan1-removebg-preview 1.png"]{
+        z-index: 4;
+        top: -44px;
+        left: 200px;
+    }
+    .main_container .distribution{
+        width: 100%;
+    }
+    .main_container .table_wrapper{
+        overflow-x: auto;
+        max-width: 100%;
+    }
+    main.main_container img[src="img/black_tree2.png"]{
+        position: absolute;
+        right: 50px;
+        bottom: 550px;
+        rotate: 70deg;
+        top: auto;
+    }
+    .under_table img[src="img/black_tree1.png"]{
+        left: 50px;
+        top: 50px;
+    }
+    .under_table{
+        padding-bottom: 200px;
+    }
+    .under_table .buttons{
+        padding-top: 200px;
+        row-gap: 100px;
+        width: max-content;
+    }
+    .under_table .buttons button{
+        text-wrap: wrap;
+    }
+}
+@media(max-width: 888px){
+    .text_left img[src="img/plan1-removebg-preview 1.png"]{
+        top: -640px;
+        left: 70px;
+    }
+    section.hat_container{
+        margin-bottom: 16vh;
+    }
+}
+@media(max-width: 792px){
+    header section.header_section{
+        padding-top: 10vw;
+    }
+    .text_left img[src="img/plan1-removebg-preview 1.png"]{
+        display: none;
+    }
+}

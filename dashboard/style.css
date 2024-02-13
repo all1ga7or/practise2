@@ -1,0 +1,13 @@
+@import url(../header.css);
+@import url(../style.css);
+@import url(../main.css);
+@import url(../footer.css);
+@import url(../plants/main.css);
+@import url(../greenhouses/main.css);
+/* @import url(../reports/adapt.css); */
+@import url(header.css);
+@import url(main.css);
+@import url(adapt.css);
+body{
+    background-color: #D1E5C1;
+}

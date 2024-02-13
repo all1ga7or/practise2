@@ -1,0 +1,181 @@
+main.main_container{
+    background-color: #A3C6BC;
+}
+#plantingTable{
+    max-width: 70%;
+    align-self: center;
+    text-wrap: wrap;
+}
+#plantingTable th{
+    font-size: 40px;
+}
+#plantingTable td{
+    font-size: 48px;
+}
+#plantingTable .select-cell div{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+#plantingTable th{
+    padding: 5px 20px;
+}
+#horizontal-table{
+    display: none;
+}
+.crop_planning td.quantity_for_greenhouse{
+    padding: 0;
+}
+input.quantity_for_greenhouse{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    font-size: 46px;
+    text-align: center;
+    box-shadow: inset 0px 0px 7px 1px;
+}
+.under_table .buttons{
+    flex-direction: row;
+    column-gap: 150px;
+    width: auto;
+    justify-content: space-between;
+}
+.under_table{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.under_table .buttons button{
+    width: 350px;
+}
+.under_table img[src="img/black_tree2.png"]{
+    position: absolute;
+    right: 60px;
+    bottom: -40px;
+    top: auto;
+    rotate: 65deg;
+}
+.under_table img[src="img/black_tree1.png"]{
+    left: 40px;
+    top: auto;
+    bottom: -45px;
+}
+.under_table .horizontal_line{
+    width: 30%;
+}
+.on_off{
+    display: flex;
+}
+.add_button, .harvest_button{
+    width: 20%;
+    text-wrap: nowrap;
+    padding: 20px 10px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: #78C800;
+    box-shadow: #6CA530 0 8px 0 0;
+}
+.on_off img{
+    display: none;
+    width: 100%;
+}
+.on_off img[src="img/button_launch.png"]{
+    display: block;
+}
+.launch_button{
+    display: none;
+}
+.launch_button:checked  + label img[src="img/button_launch.png"]{
+    display: none;
+}
+.launch_button:checked + label img[src="img/button_launch (1).png"]{
+    display: block;
+}
+.add_chosen{
+    display: none;
+}
+.greenhouse{
+    display: none;
+    justify-content: space-between;
+    column-gap: 200px;
+    margin: 50px 150px;
+}
+.greenhouseTable-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.crop_planning{
+    margin-top: 0;
+}
+.greenhouseButtons1{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.greenhouseButtons2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    column-gap: 30px;
+}
+.greenhouseButtons1 .add_button, .greenhouseButtons2 .harvest_button{
+    width: 200px;
+    height: fit-content;
+    padding: 5px 10px;
+}
+.greenhouse .crop_planning tr td:last-child{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.greenhouseTable-container .crop_planning tr td:last-child span, .greenhouseTable2-container .crop_planning tr td:last-child span{
+    display: block;
+    position: relative;
+    margin: 1px 3px;
+    padding: 5px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    color: #636363;
+    box-shadow: #636363 0px 2px 2px 2px;
+}
+.greenhouseTable2-container .crop_planning tr td:last-child .sprout{
+    background-color: #B8EAFA;
+    color: #126782;
+}
+.greenhouseTable2-container .crop_planning tr td:last-child .growing{
+    background-color: #B2FAC2;
+    color: #2D693A;
+}
+.greenhouseTable2-container .crop_planning tr td:last-child .blooms{
+    background-color: #F5FAB2;
+    color: #6E763D;
+}
+.greenhouseTable2-container .crop_planning tr td:last-child .fruit{
+    background-color: #FAB2B2;
+    color: #764E3D;
+}
+.greenhouseTable2-container .crop_planning tr td:last-child:hover .timer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.627);
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 7px;
+    display: none;
+}

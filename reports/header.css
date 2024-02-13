@@ -1,0 +1,24 @@
+.header_section .text_left .image img{
+    width: 100%;
+}
+.header_section{
+    position: relative;
+
+}
+.header_section .text_left {
+    align-items: start;
+}
+.header_section .text_left .image{
+    width: 120%;
+    margin: 0 20px 60px 0;
+}
+.header_section .text_left .text p {
+    padding: 0;
+    margin: 50px 20px 0 20px;
+}
+.header_section img[src="img/header_back2.png"]{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: -240px;
+}

@@ -1,0 +1,53 @@
+.main_container{
+    position: relative;
+    overflow: hidden;
+}
+table.distribution{
+    align-self: center;
+    width: 80%;
+}
+.main_container img[src="img/black_tree2.png"]{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+.select-cell:hover div{
+    transform: scale(1.2);
+}
+.select-cell{
+    display: flex;
+    justify-content: center;
+}
+.select-cell div{
+    transition: transform .3s ease;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.selected div{
+    background-color: #8EB79C;
+    border-color: #98B4B1;
+}
+.selected div svg{
+    display: block;
+}
+.select-cell svg{
+    display: none;
+}
+.under_table img[src="img/black_tree1.png"]{
+    left: 0;
+    top: -70px;
+}
+.under_table img[src="img/plant1.png"]{
+    left: -40px;
+    bottom: -60px;
+}
+.under_table img[src="img/plant2.png"]{
+    right: -40px;
+    bottom: 0;
+}

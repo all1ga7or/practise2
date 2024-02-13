@@ -1,0 +1,48 @@
+main.main_container{
+    position: relative;
+    background-color: #8EB79C;
+    overflow: hidden;
+}
+main .text_left, .text_right{
+    display: flex;
+    justify-content: space-around;
+}
+main .text_left .image img{
+    scale: 2;
+    transform: translate(-150px, 100px);
+}
+main .text_right{
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+}
+main .text_right .image img{
+    position: absolute;
+    scale: 1.3;
+    left: 100px;
+    bottom: 100px;
+}
+img[src="img/article_harvest-removebg-preview 1 copy.png"]{
+    display: none;
+}
+img[src="img/article_place-removebg-preview 1 — копия.png"]{
+    display: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    z-index: 1;
+}
+.buttons button{
+    background-color: #78C800;
+    box-shadow: #6CA530 0 8px 0 0;
+    font-family: "Oswald";
+    font-size: 36px;
+    padding: 20px;
+}
+.buttons > #greenhouses_for_harvesting {
+    margin-right: 30px;
+}

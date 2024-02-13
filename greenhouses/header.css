@@ -1,0 +1,48 @@
+.header_section{
+    align-items: normal;
+    height: 800px;
+}
+.text_left{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text_left img{
+    position: absolute;
+    z-index: -1;
+}
+.text_left img[src="img/plan1-removebg-preview 1.png"]{
+    z-index: 4;
+    top: -50px;
+    left: 400px;
+}
+.text_left img[src="img/plant2-removebg-preview (1) 1.png"]{
+    left: 0;
+    bottom: 0;
+}
+.text_left img[src="img/plant_back.png"]{
+    left: 40%;
+    bottom: 10%;
+    opacity: 90%;
+}
+.text_left img[src="img/plant3-removebg-preview 1.png"]{
+    left: 80%;
+    bottom: 5%;
+}
+.text_left p{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: #2A2B17;
+}
+.image_right img{
+    position: relative;
+    max-width: 600px;
+    z-index: -2;
+}
