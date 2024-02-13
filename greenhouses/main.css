@@ -2,6 +2,10 @@
     position: relative;
     overflow: hidden;
 }
+.main_container .table_wrapper{
+    display: flex;
+    justify-content: center;
+}
 table.distribution{
     align-self: center;
     width: 80%;

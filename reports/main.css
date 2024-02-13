@@ -23,10 +23,10 @@ main .text_right .image img{
     left: 100px;
     bottom: 100px;
 }
-img[src="img/article_harvest-removebg-preview 1 copy.png"]{
+img[src="img/сад.png"]{
     display: none;
 }
-img[src="img/article_place-removebg-preview 1 — копия.png"]{
+img[src="img/теплиця.png"]{
     display: none;
 }
 .buttons{
